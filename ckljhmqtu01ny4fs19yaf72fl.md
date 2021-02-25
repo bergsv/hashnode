@@ -1,4 +1,4 @@
-## Import multiple Hosts into Rubrik CDM via PowerShell
+## Import multiple Hosts into the Rubrik CDM via PowerShell
 
 A while ago i had to import multiple Hosts into a <a rel="noreferrer noopener" href="http://www.rubrik.com/" target="_blank">Rubrik CDM</a> Cluster. So i took the chance, jumped into PowerShell and wrote a small and very simple Script, which reads out an CSV-File containing the Hosts and then triggers the Rubrik-API. 
 
