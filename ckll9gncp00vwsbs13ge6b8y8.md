@@ -10,14 +10,14 @@ This is just a short rundown how to upgrade an Rubrik CDM Cluster.
 ```
 C:\Users\MyUser\Downloads>certutil -hashfile rubrik-image-5.3.0-p3-18540.zip MD5
 ```
-The output should look like
+The output should look like this
 
  *MD5-Hash von rubrik-image-5.3.0-p3-18540.zip:
 b030cb71aa684e881ea292bcdfc69060*
 
  Compare this output with the noted MD5 from the Support Portal
 
-4. When the MD5 Hash is valid, unzip the components of the .zip-File, not further. The Output will be an .tar.gz with a big size and an .tar.gz.sig with a very small size.
+4. When both MD5 Hashes match, unzip the components of the .zip-File, not further. The Output will be an .tar.gz with a big size and an .tar.gz.sig with a very small size.
 
 5. Connect via WinSCP to one Rubrik node (or the floating ip of your cluster, which is in reality, one node) and upload both files to the folder "/upgrade". The user for the login is "**adminstaging**" and the password comes from the standard admin-user.
 
