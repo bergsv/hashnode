@@ -1,6 +1,7 @@
 ## How to Update a Rubrik CDM Cluster, a short rundown
 
-This is just a short rundown how to upgrade an Rubrik CDM Cluster.
+This is just a short rundown how to upgrade an Rubrik CDM Cluster. This is also my first HowTo, when you want, you can give me feedback in the comments :)
+
 
 1. First you have to check the compatibility matrix in the Rubrik Support Portal https://support.rubrik.com/s/article/000001571 (an eligible Support Portal Account is needed) 
 
@@ -50,4 +51,5 @@ b030cb71aa684e881ea292bcdfc69060*
  reconnect to the node and watch the status with ```cluster upgrade status watch```
 
 12. After the update finished successfully, delete the used tar.gz and tar.gz.sig files from the node you uploaded, connect to the Rubrik GUI and Resume the Protection from the settings menu. The update is done :)
+
 
